@@ -1,0 +1,105 @@
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+body {
+  background-color: darkblue;
+}
+
+.block {
+  display: flex;
+  background-color: #22212c;
+  padding-left: 40px;
+  width: 1440px;
+  height: 1767px;
+}
+
+img {
+  margin-left: 6px;
+  margin-top: 2px;
+  width: 126px;
+  height: 126px;
+  border-radius: 100px;
+}
+
+.profile {
+  width: 348px;
+  height: 292px;
+  border-radius: 20px;
+  margin-top: 40px;
+  padding-top: 32px;
+  background-color: #302f3d;
+}
+
+.image {
+  width: 138px;
+  height: 138px;
+  margin-left: 110px;
+  margin-right: 110px;
+  background-image: url(/assets/Ellipse\ 1.png);
+  background-size: 100%;
+}
+
+.name {
+  color: #837e9f;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 30px;
+  margin-left: 76px;
+  margin-right: 76px;
+  margin-bottom: 0px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+  border-style: 1px solid #000000;
+}
+
+.actual {
+  color: #837e9f;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 110px;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+
+.links {
+  display: flex;
+  width: 348px;
+  height: 348px;
+  border-radius: 20px;
+  margin-top: 30px;
+  background-color: #22212c;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.icon-map {
+  width: 24px;
+  height: 24px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.map {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #837E9F;
+  line-height: 16px;
+  width: 35px;
+  height: 16px;
+  margin-left: 20px;
+  margin-top: 34px;
+}
+
+.icon-study {
+  width: 24px;
+  height: 24px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
