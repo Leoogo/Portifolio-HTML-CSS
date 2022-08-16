@@ -23,6 +23,7 @@
   padding-top: 32px;
   background-color: #302f3d;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .image {
@@ -87,6 +88,7 @@ img {
   margin-top: 15px;
   margin-left: 40px;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .icon {
@@ -95,6 +97,7 @@ img {
   height: 24px;
   margin-top: 20px;
   margin-left: 40px;
+  cursor: pointer;
 }
 
 .lastIcon {
@@ -103,6 +106,7 @@ img {
   margin-top: 20px;
   margin-left: 40px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 /*-Right-small-block-*/
 .texts {
@@ -112,6 +116,11 @@ img {
   padding-top: 34px;
   padding-bottom: 34px;
 }
+
+a {
+  text-decoration: none;
+}
+
 /*-Texts-sequences-*/
 .text1 {
   display: block;
@@ -121,6 +130,7 @@ img {
   color: #837E9F;
   margin-top: 0px;
   margin-bottom: 28px;
+  cursor: pointer;
 }
 
 .text2 {
@@ -130,6 +140,7 @@ img {
   line-height: 16px;
   color: #837E9F;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .text3 {
@@ -139,6 +150,7 @@ img {
   line-height: 16px;
   color: #837E9F;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .text4 {
@@ -148,6 +160,7 @@ img {
   line-height: 16px;
   color: #837E9F;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .text5 {
@@ -157,6 +170,7 @@ img {
   line-height: 16px;
   color: #837E9F;
   margin-top: 26px;
+  cursor: pointer;
 }
 
 .text6 {
@@ -166,6 +180,7 @@ img {
   line-height: 16px;
   color: #837E9F;
   margin-top: 29px;
+  cursor: pointer;
 }
 
 .text7 {
@@ -175,6 +190,7 @@ img {
   line-height: 16px;
   color: #837E9F;
   margin-top: 27px;
+  cursor: pointer;
 }
 
 /*----------Third-left-Block------------------Tecnologies----------------------*/
@@ -219,9 +235,10 @@ img {
   line-height: 13px;
   text-align: center;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
-/*----------fourth-left-Block------------------Tecnologies----------------------*/
+/*----------fourth-left-Block------------------Experiences----------------------*/
 .experiences-block {
   width: 348px;
   height: 349px;
@@ -237,6 +254,7 @@ img {
   margin-left: 20px;
   margin-bottom: 0px;
   padding-top: 30px;
+  cursor: pointer;
 }
 
 .experiences-block ul {
@@ -254,6 +272,7 @@ img {
 
 .experiences-block p {
   font-weight: 300;
+  cursor: pointer;
 }
 
 /*----------fifth-left-Block------------------Education----------------------*/
@@ -272,6 +291,7 @@ img {
   margin-left: 20px;
   margin-bottom: 0px;
   padding-top: 30px;
+  cursor: pointer;
 }
 
 .education-block ul {
@@ -289,6 +309,7 @@ img {
 
 .education-block p {
   font-weight: 300;
+  cursor: pointer;
 }
 
 /*-------------------------------------------------------------------------Right-Block---------------------*/
@@ -314,6 +335,7 @@ img {
   line-height: 25px;
   margin-top: 30px;
   margin-left: 30px;
+  cursor: pointer;
 }
 
 .project p {
@@ -321,6 +343,7 @@ img {
   line-height: 18px;
   margin-top: 34px;
   margin-left: 700px;
+  cursor: pointer;
 }
 /*---------2-Second-Right-Block-----------------Icons---------------------*/
 .project-L-R {
@@ -376,12 +399,15 @@ img {
   margin-top: 30px;
 }
 
-.project-left .top p {
+.project-left .top a {
   margin-left: 16px;
   margin-top: 30px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  color: #837E9F;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .project-left .center p {
@@ -420,12 +446,15 @@ img {
   margin-top: 30px;
 }
 
-.project-right .top p {
+.project-right .top a {
   margin-left: 16px;
   margin-top: 30px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  color: #837E9F;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .project-right .center p {
@@ -455,6 +484,7 @@ img {
 
 #circulo {
   margin-left: 181px;
+  cursor: pointer;
 }
 
 /*----------Third-Right-Block-----------------Icons---------------------*/
@@ -476,6 +506,7 @@ img {
   line-height: 25px;
   margin-top: 30px;
   margin-left: 30px;
+  cursor: pointer;
 }
 /*----------Fourth-Right-Block-----------------Icons---------------------*/
 .post {
@@ -498,6 +529,7 @@ img {
 .img-post img {
   margin-top: 31px;
   margin-left: 30px;
+  cursor: pointer;
 }
 
 .txt-post {
@@ -505,6 +537,7 @@ img {
   width: 612px;
   height: 201px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .txt-post h1 {
@@ -512,7 +545,8 @@ img {
   margin-bottom: 0px;
   font-size: 18px;
   font-weight: 700;
-  line-height: 20px;  
+  line-height: 20px;
+  cursor: pointer;
 }
 
 .txt-post .top-txt p {
@@ -520,6 +554,7 @@ img {
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
+  cursor: pointer;
 }
 
 
@@ -529,20 +564,23 @@ img {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
+  cursor: pointer;
 }
 
 .bottom-txt {
   display: flex;
   width: 612px;
   height: 63px;
+  cursor: pointer;
 }
 
 .txt-post .bottom-txt p {
-  width: 110px;
+  width: 100px;
   height: 21px;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
   margin-right: 10px;
   margin-top: 10px;
+  cursor: pointer;
 }
